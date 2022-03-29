@@ -1,1 +1,1 @@
-# svg-animation-remind
+# svg-animation-reminder
