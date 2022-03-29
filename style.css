@@ -1,0 +1,22 @@
+.svg-animation-container{
+    width:500px;
+    padding:24px;
+    margin:0 auto;  
+    border-radius: 20%;
+    height: 500px;
+}
+.svg-animation-container svg{
+    width:100%;
+}
+#Body{
+    animation:bounce 1s alternate infinite ease-in-out;
+}
+@keyframes bounce {
+    0%{
+        transform:translateY(50px);
+    }
+    100%{
+        transform: translateY(-80px);
+    }
+    
+}
